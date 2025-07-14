@@ -42,6 +42,10 @@ const userInfoSchema = new mongoose.Schema({
 const Chat = mongoose.model('Chat', chatSchema);
 const UserInfo = mongoose.model('UserInfo', userInfoSchema);
 
+app.get('/', (req, res) => {
+  res.send('WhatsApp Automation Backend is running!');
+});
+
 //-----------------------------------------
 // Webhook Verification
 //-----------------------------------------

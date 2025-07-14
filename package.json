@@ -2,7 +2,7 @@
   "name": "whatsapp-automation",
   "version": "1.0.0",
   "description": "Node.js backend for WhatsApp automation using Express, Gemini AI, and Make.com integration.",
-  "main": "index.js",
+  "main": "fullOnBackend.js",
   "scripts": {
     "start": "node fullOnBackend.js",
     "test": "echo \"Error: no test specified\" && exit 1"
