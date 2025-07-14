@@ -4,7 +4,7 @@
   "description": "Node.js backend for WhatsApp automation using Express, Gemini AI, and Make.com integration.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node fullOnBackend.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "HackNetAyush",
